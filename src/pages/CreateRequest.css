@@ -1,0 +1,32 @@
+.max-w-md { max-width: 28rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.text-center { text-align: center; }
+.block { display: block; }
+.flex-1 { flex: 1; }
+.mt-2 { margin-top: 0.5rem; }
+
+.icon-circle {
+  width: 56px;
+  height: 56px;
+  background-color: hsla(var(--primary), 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.location-picker {
+  background-color: hsla(var(--border), 0.3);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px dashed hsl(var(--border));
+  color: hsl(var(--text-muted));
+  font-size: 0.875rem;
+  text-align: center;
+}
